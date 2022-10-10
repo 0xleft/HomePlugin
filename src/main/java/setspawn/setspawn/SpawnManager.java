@@ -10,7 +10,6 @@ import setspawn.setspawn.commands.setspawn;
 import setspawn.setspawn.commands.tospawn;
 import setspawn.setspawn.listeners.OnPlayerJoinListener;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.UUID;
 

@@ -1,3 +1,5 @@
+//modification of https://www.spigotmc.org/wiki/save-load-data-files/
+
 package setspawn.setspawn;
 
 import java.io.FileInputStream;
@@ -71,8 +73,6 @@ public class Data implements Serializable {
         Data data = new Data(Data.loadData("SpawnManager.data"));
         Bukkit.getServer().getLogger().log(Level.INFO, "Data loaded");
 
-
         return data.playerSpawns;
-
     }
 }
