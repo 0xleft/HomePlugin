@@ -1,0 +1,17 @@
+name: SetSpawn
+version: '${project.version}'
+main: setspawn.setspawn.SpawnManager
+api-version: 1.19
+commands:
+  setspawn:
+    usage: /setspawn
+    description: sets spawn
+  tospawn:
+    usage: /tospawn
+    description: teleport to spawn
+  removespawn:
+    usage: /removespawn
+    description: remove set spawn
+  getspawns:
+    usage: /getspawns
+    description: get spawns
